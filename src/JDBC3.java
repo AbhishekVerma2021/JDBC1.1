@@ -26,5 +26,6 @@ public class JDBC3
             System.out.println(rs.getString("Name") + " "+ rs.getInt("Rollno"));
         }
         con.close();
+
     }
 }
